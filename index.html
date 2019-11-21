@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- The boring part! -->
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>Decheng's Portfolio</title>
+		<meta
+			content="Development portfolio of Decheng Ma "
+			name="description"
+			property="og:description"
+		/>
+
+		<!-- Link to the relevant stylesheet -->
+		<link href="style.css" rel="stylesheet" />
+
+		<!--[if lte IE 8]>
+			<link href="dist/css/blockIE.css" rel="stylesheet" />
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!-- Load JQuery, as our little script depends on it -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- Load our font from Google -->
+
+		<!-- This is a neat little effect that fades the website in from white when it is loaded. This will work in unison with a animation effect. -->
+		<script>
+			$(window).load(function() {
+				$('.preloader')
+					.delay(400)
+					.fadeOut('slow');
+			});
+		</script>
+	</head>
+
+	<body>
+		<!-- This calls the little script written above. -->
+		<div class="preloader"></div>
+
+		<!-- The Intro section begins -->
+		<section class="intro">
+			<div class="intro-text">
+				<!-- Seperates the text section from the arrow. -->
+				<div class="Hi">
+					<h1>
+						Hi! 👋 &mdash; My name is <span>Decheng Ma</span>, I'm a
+						<span>developer</span> 👨🏻‍💻 located in Melboure, VIC.
+					</h1>
+
+					<h3 style="margin-top: 20px">
+						I am a master degree student of
+						<span>Information Technology</span> graduated from Monash
+						University. <br />I've been teaching myself
+						<span>New Techs</span> during my postgraduate study. <br />I have
+						experiences in building both <span>Web</span> and
+						<span>iOS</span> applications from the front end to the back end.
+						<br />Experienced and skilled in
+						<span>React.js, Node.js, MongoDB and Swift</span>.
+						<br />
+					</h3>
+				</div>
+			</div>
+		</section>
+		<!-- Intro section ends -->
+
+		<!-- The portfolio section begins -->
+
+		<section class="projects">
+			<div class="projects-collage">
+				<!-- Project One -->
+				<a
+					class="project-item"
+					href="http://www.ecomelbourne.com"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/eco-mel.png" />
+						<figcaption class="project-text">
+							<h2>Eco Melbourne</h2>
+							<p>React.js Web Application</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project One Ends -->
+
+				<!-- Project Two -->
+				<a
+					class="project-item"
+					href="https://generalgame.surge.sh"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/general-game.png" />
+						<figcaption class="project-text">
+							<h2>General Game</h2>
+							<p>Company Website with online store</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project Two Ends -->
+
+				<!-- Project Three -->
+				<a
+					class="project-item"
+					href="https://github.com/DechengMa/developer-connector"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/dev-connector.png" />
+						<figcaption class="project-text">
+							<h2>Developer Connector</h2>
+							<p>Node with React</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project Three Ends -->
+
+				<!-- Project Four -->
+				<a
+					class="project-item"
+					href="https://github.com/DechengMa/travel-site"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/travel-site.png" />
+						<figcaption class="project-text">
+							<h2>Travel Site</h2>
+							<p>Front End Project. HTML5, Scss and Javascript</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project Four Ends -->
+
+				<!-- Project Five -->
+				<a
+					class="project-item"
+					href="https://github.com/DechengMa/football_team"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/football-team.png" />
+						<figcaption class="project-text">
+							<h2>Football Team Website</h2>
+							<p>React.js with Firebase</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project Five Ends -->
+
+				<!-- Project Six -->
+				<a
+					class="project-item"
+					href="https://www.github.com/dechengma"
+					target="_blank"
+				>
+					<figure class="project-figure">
+						<div class="project-overlay"></div>
+						<img src="./img/budget-calculator.png" />
+						<figcaption class="project-text">
+							<h2>Budget Calculator</h2>
+							<p>A budget calculator application written in Javascript</p>
+						</figcaption>
+					</figure>
+				</a>
+				<!-- Project Six Ends -->
+			</div>
+		</section>
+		<!-- Portfolio section ends -->
+
+		<!-- Contact button section begins -->
+		<section class="content contact">
+			<a
+				class="button-slide"
+				data-hover="dechengma.au@gmail.com"
+				href="mailto:dechengma.au@gmail.com"
+			>
+				<span>Hire Me 👌</span>
+			</a>
+		</section>
+		<!-- Contact button section ends-->
+
+		<!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+		<footer>
+			<div class="wrapper">
+				<ul>
+					<li>
+						<a href="https://www.instagram.com/decheng12345" target="_blank"
+							>Instagram</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/decheng-ma-558012150/"
+							target="_blank"
+							>Linkedin</a
+						>
+					</li>
+					<li>
+						<a href="https://github.com/dechengma" target="_blank">GitHub</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<!-- Footer section ends -->
+	</body>
+</html>
